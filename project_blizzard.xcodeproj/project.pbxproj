@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0B94EA2BB4BC5700A4897C /* project_blizzardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B94E92BB4BC5700A4897C /* project_blizzardApp.swift */; };
+		FA0B94EC2BB4BC5700A4897C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B94EB2BB4BC5700A4897C /* ContentView.swift */; };
+		FA0B94EE2BB4BC5A00A4897C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0B94ED2BB4BC5A00A4897C /* Assets.xcassets */; };
+		FA0B94F22BB4BC5A00A4897C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0B94F12BB4BC5A00A4897C /* Preview Assets.xcassets */; };
+		FA0B94FC2BB4BC5A00A4897C /* project_blizzardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B94FB2BB4BC5A00A4897C /* project_blizzardTests.swift */; };
+		FA0B95062BB4BC5B00A4897C /* project_blizzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */; };
+		FA0B95082BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0B94F82BB4BC5A00A4897C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B94DE2BB4BC5700A4897C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0B94E52BB4BC5700A4897C;
+			remoteInfo = project_blizzard;
+		};
+		FA0B95022BB4BC5B00A4897C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B94DE2BB4BC5700A4897C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0B94E52BB4BC5700A4897C;
+			remoteInfo = project_blizzard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0B94E62BB4BC5700A4897C /* project_blizzard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_blizzard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0B94E92BB4BC5700A4897C /* project_blizzardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardApp.swift; sourceTree = "<group>"; };
+		FA0B94EB2BB4BC5700A4897C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0B94ED2BB4BC5A00A4897C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0B94EF2BB4BC5A00A4897C /* project_blizzard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = project_blizzard.entitlements; sourceTree = "<group>"; };
+		FA0B94F12BB4BC5A00A4897C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0B94F72BB4BC5A00A4897C /* project_blizzardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_blizzardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0B94FB2BB4BC5A00A4897C /* project_blizzardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardTests.swift; sourceTree = "<group>"; };
+		FA0B95012BB4BC5B00A4897C /* project_blizzardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_blizzardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITests.swift; sourceTree = "<group>"; };
+		FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0B94E32BB4BC5700A4897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B94F42BB4BC5A00A4897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B94FE2BB4BC5B00A4897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0B94DD2BB4BC5700A4897C = {
+			isa = PBXGroup;
+			children = (
+				FA0B94E82BB4BC5700A4897C /* project_blizzard */,
+				FA0B94FA2BB4BC5A00A4897C /* project_blizzardTests */,
+				FA0B95042BB4BC5B00A4897C /* project_blizzardUITests */,
+				FA0B94E72BB4BC5700A4897C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0B94E72BB4BC5700A4897C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B94E62BB4BC5700A4897C /* project_blizzard.app */,
+				FA0B94F72BB4BC5A00A4897C /* project_blizzardTests.xctest */,
+				FA0B95012BB4BC5B00A4897C /* project_blizzardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0B94E82BB4BC5700A4897C /* project_blizzard */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B94E92BB4BC5700A4897C /* project_blizzardApp.swift */,
+				FA0B94EB2BB4BC5700A4897C /* ContentView.swift */,
+				FA0B94ED2BB4BC5A00A4897C /* Assets.xcassets */,
+				FA0B94EF2BB4BC5A00A4897C /* project_blizzard.entitlements */,
+				FA0B94F02BB4BC5A00A4897C /* Preview Content */,
+			);
+			path = project_blizzard;
+			sourceTree = "<group>";
+		};
+		FA0B94F02BB4BC5A00A4897C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B94F12BB4BC5A00A4897C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0B94FA2BB4BC5A00A4897C /* project_blizzardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B94FB2BB4BC5A00A4897C /* project_blizzardTests.swift */,
+			);
+			path = project_blizzardTests;
+			sourceTree = "<group>";
+		};
+		FA0B95042BB4BC5B00A4897C /* project_blizzardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */,
+				FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */,
+			);
+			path = project_blizzardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0B94E52BB4BC5700A4897C /* project_blizzard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0B950B2BB4BC5B00A4897C /* Build configuration list for PBXNativeTarget "project_blizzard" */;
+			buildPhases = (
+				FA0B94E22BB4BC5700A4897C /* Sources */,
+				FA0B94E32BB4BC5700A4897C /* Frameworks */,
+				FA0B94E42BB4BC5700A4897C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project_blizzard;
+			productName = project_blizzard;
+			productReference = FA0B94E62BB4BC5700A4897C /* project_blizzard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0B94F62BB4BC5A00A4897C /* project_blizzardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0B950E2BB4BC5B00A4897C /* Build configuration list for PBXNativeTarget "project_blizzardTests" */;
+			buildPhases = (
+				FA0B94F32BB4BC5A00A4897C /* Sources */,
+				FA0B94F42BB4BC5A00A4897C /* Frameworks */,
+				FA0B94F52BB4BC5A00A4897C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0B94F92BB4BC5A00A4897C /* PBXTargetDependency */,
+			);
+			name = project_blizzardTests;
+			productName = project_blizzardTests;
+			productReference = FA0B94F72BB4BC5A00A4897C /* project_blizzardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0B95002BB4BC5B00A4897C /* project_blizzardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0B95112BB4BC5B00A4897C /* Build configuration list for PBXNativeTarget "project_blizzardUITests" */;
+			buildPhases = (
+				FA0B94FD2BB4BC5B00A4897C /* Sources */,
+				FA0B94FE2BB4BC5B00A4897C /* Frameworks */,
+				FA0B94FF2BB4BC5B00A4897C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0B95032BB4BC5B00A4897C /* PBXTargetDependency */,
+			);
+			name = project_blizzardUITests;
+			productName = project_blizzardUITests;
+			productReference = FA0B95012BB4BC5B00A4897C /* project_blizzardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0B94DE2BB4BC5700A4897C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FA0B94E52BB4BC5700A4897C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FA0B94F62BB4BC5A00A4897C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FA0B94E52BB4BC5700A4897C;
+					};
+					FA0B95002BB4BC5B00A4897C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FA0B94E52BB4BC5700A4897C;
+					};
+				};
+			};
+			buildConfigurationList = FA0B94E12BB4BC5700A4897C /* Build configuration list for PBXProject "project_blizzard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0B94DD2BB4BC5700A4897C;
+			productRefGroup = FA0B94E72BB4BC5700A4897C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0B94E52BB4BC5700A4897C /* project_blizzard */,
+				FA0B94F62BB4BC5A00A4897C /* project_blizzardTests */,
+				FA0B95002BB4BC5B00A4897C /* project_blizzardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0B94E42BB4BC5700A4897C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B94F22BB4BC5A00A4897C /* Preview Assets.xcassets in Resources */,
+				FA0B94EE2BB4BC5A00A4897C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B94F52BB4BC5A00A4897C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B94FF2BB4BC5B00A4897C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0B94E22BB4BC5700A4897C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B94EC2BB4BC5700A4897C /* ContentView.swift in Sources */,
+				FA0B94EA2BB4BC5700A4897C /* project_blizzardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B94F32BB4BC5A00A4897C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B94FC2BB4BC5A00A4897C /* project_blizzardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B94FD2BB4BC5B00A4897C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B95082BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift in Sources */,
+				FA0B95062BB4BC5B00A4897C /* project_blizzardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0B94F92BB4BC5A00A4897C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0B94E52BB4BC5700A4897C /* project_blizzard */;
+			targetProxy = FA0B94F82BB4BC5A00A4897C /* PBXContainerItemProxy */;
+		};
+		FA0B95032BB4BC5B00A4897C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0B94E52BB4BC5700A4897C /* project_blizzard */;
+			targetProxy = FA0B95022BB4BC5B00A4897C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA0B95092BB4BC5B00A4897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0B950A2BB4BC5B00A4897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA0B950C2BB4BC5B00A4897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = project_blizzard/project_blizzard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"project_blizzard/Preview Content\"";
+				DEVELOPMENT_TEAM = WL2KNG8MVT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0B950D2BB4BC5B00A4897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = project_blizzard/project_blizzard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"project_blizzard/Preview Content\"";
+				DEVELOPMENT_TEAM = WL2KNG8MVT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA0B950F2BB4BC5B00A4897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL2KNG8MVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project_blizzard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project_blizzard";
+			};
+			name = Debug;
+		};
+		FA0B95102BB4BC5B00A4897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL2KNG8MVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project_blizzard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project_blizzard";
+			};
+			name = Release;
+		};
+		FA0B95122BB4BC5B00A4897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL2KNG8MVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = project_blizzard;
+			};
+			name = Debug;
+		};
+		FA0B95132BB4BC5B00A4897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL2KNG8MVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = project_blizzard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0B94E12BB4BC5700A4897C /* Build configuration list for PBXProject "project_blizzard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B95092BB4BC5B00A4897C /* Debug */,
+				FA0B950A2BB4BC5B00A4897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0B950B2BB4BC5B00A4897C /* Build configuration list for PBXNativeTarget "project_blizzard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B950C2BB4BC5B00A4897C /* Debug */,
+				FA0B950D2BB4BC5B00A4897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0B950E2BB4BC5B00A4897C /* Build configuration list for PBXNativeTarget "project_blizzardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B950F2BB4BC5B00A4897C /* Debug */,
+				FA0B95102BB4BC5B00A4897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0B95112BB4BC5B00A4897C /* Build configuration list for PBXNativeTarget "project_blizzardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B95122BB4BC5B00A4897C /* Debug */,
+				FA0B95132BB4BC5B00A4897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0B94DE2BB4BC5700A4897C /* Project object */;
+}
