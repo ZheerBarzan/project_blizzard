@@ -15,6 +15,7 @@
 		FA0B95062BB4BC5B00A4897C /* project_blizzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */; };
 		FA0B95082BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */; };
 		FA85BBFD2BBC94B5000DBFBF /* LocationManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */; };
+		FAD36CDB2BBC9B1400F1D9A0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD36CDA2BBC9B1400F1D9A0 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITests.swift; sourceTree = "<group>"; };
 		FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManeger.swift; sourceTree = "<group>"; };
+		FAD36CDA2BBC9B1400F1D9A0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,9 @@
 		FA0B94E82BB4BC5700A4897C /* project_blizzard */ = {
 			isa = PBXGroup;
 			children = (
+				FA85BBFF2BBC97DF000DBFBF /* Views */,
 				FA85BBF92BBC946A000DBFBF /* Manegers */,
 				FA0B94E92BB4BC5700A4897C /* project_blizzardApp.swift */,
-				FA0B94EB2BB4BC5700A4897C /* ContentView.swift */,
 				FA0B94ED2BB4BC5A00A4897C /* Assets.xcassets */,
 				FA0B94EF2BB4BC5A00A4897C /* project_blizzard.entitlements */,
 				FA0B94F02BB4BC5A00A4897C /* Preview Content */,
@@ -138,6 +140,15 @@
 				FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */,
 			);
 			path = Manegers;
+			sourceTree = "<group>";
+		};
+		FA85BBFF2BBC97DF000DBFBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B94EB2BB4BC5700A4897C /* ContentView.swift */,
+				FAD36CDA2BBC9B1400F1D9A0 /* WelcomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				FA85BBFD2BBC94B5000DBFBF /* LocationManeger.swift in Sources */,
 				FA0B94EC2BB4BC5700A4897C /* ContentView.swift in Sources */,
 				FA0B94EA2BB4BC5700A4897C /* project_blizzardApp.swift in Sources */,
+				FAD36CDB2BBC9B1400F1D9A0 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
