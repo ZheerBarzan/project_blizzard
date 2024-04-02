@@ -14,6 +14,7 @@
 		FA0B94FC2BB4BC5A00A4897C /* project_blizzardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B94FB2BB4BC5A00A4897C /* project_blizzardTests.swift */; };
 		FA0B95062BB4BC5B00A4897C /* project_blizzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */; };
 		FA0B95082BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */; };
+		FA85BBFD2BBC94B5000DBFBF /* LocationManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FA0B95012BB4BC5B00A4897C /* project_blizzardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_blizzardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITests.swift; sourceTree = "<group>"; };
 		FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManeger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		FA0B94E82BB4BC5700A4897C /* project_blizzard */ = {
 			isa = PBXGroup;
 			children = (
+				FA85BBF92BBC946A000DBFBF /* Manegers */,
 				FA0B94E92BB4BC5700A4897C /* project_blizzardApp.swift */,
 				FA0B94EB2BB4BC5700A4897C /* ContentView.swift */,
 				FA0B94ED2BB4BC5A00A4897C /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */,
 			);
 			path = project_blizzardUITests;
+			sourceTree = "<group>";
+		};
+		FA85BBF92BBC946A000DBFBF /* Manegers */ = {
+			isa = PBXGroup;
+			children = (
+				FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */,
+			);
+			path = Manegers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA85BBFD2BBC94B5000DBFBF /* LocationManeger.swift in Sources */,
 				FA0B94EC2BB4BC5700A4897C /* ContentView.swift in Sources */,
 				FA0B94EA2BB4BC5700A4897C /* project_blizzardApp.swift in Sources */,
 			);
@@ -434,10 +446,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,10 +484,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "BokenRadio.com.project-blizzard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
