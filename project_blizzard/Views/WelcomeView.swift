@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import CoreLocationUI
 struct WelcomeView: View {
     @EnvironmentObject var locationManeger: LocationManeger
     var body: some View {
@@ -15,9 +15,15 @@ struct WelcomeView: View {
                 Text("Welcome to Blizzard")
                     .font(.title)
                     .fontWeight(.bold)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                 
             }.multilineTextAlignment(.center).padding()
+            
+            LocationButton(.shareCurrentLocation){
+                locationManeger.requestLocation()
+            }.cornerRadius( 20)
+                .symbolVariant(.fill)
+                .foregroundColor(.white)
             
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
     }
