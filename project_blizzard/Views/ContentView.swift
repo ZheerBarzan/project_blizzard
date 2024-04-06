@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("Your Location is \(location.latitude) \(location.longitude)")
             }else{
                 if locationManeger.isLoading{
-                    ProgressView()
+                    LoadingView()
                 }else{
                     WelcomeView().environmentObject(locationManeger)
 
