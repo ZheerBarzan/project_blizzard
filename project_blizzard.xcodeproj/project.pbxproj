@@ -15,6 +15,7 @@
 		FA0B95062BB4BC5B00A4897C /* project_blizzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */; };
 		FA0B95082BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */; };
 		FA85BBFD2BBC94B5000DBFBF /* LocationManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */; };
+		FAA38CB72BC3019400E7C79D /* WeatherManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA38CB62BC3019400E7C79D /* WeatherManeger.swift */; };
 		FACB344A2BC1ADE300D99015 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB34492BC1ADE300D99015 /* LoadingView.swift */; };
 		FAD36CDB2BBC9B1400F1D9A0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD36CDA2BBC9B1400F1D9A0 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITests.swift; sourceTree = "<group>"; };
 		FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManeger.swift; sourceTree = "<group>"; };
+		FAA38CB62BC3019400E7C79D /* WeatherManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManeger.swift; sourceTree = "<group>"; };
 		FACB34492BC1ADE300D99015 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAD36CDA2BBC9B1400F1D9A0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				FA85BBFC2BBC94B5000DBFBF /* LocationManeger.swift */,
+				FAA38CB62BC3019400E7C79D /* WeatherManeger.swift */,
 			);
 			path = Manegers;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				FA0B94EC2BB4BC5700A4897C /* ContentView.swift in Sources */,
 				FA0B94EA2BB4BC5700A4897C /* project_blizzardApp.swift in Sources */,
 				FACB344A2BC1ADE300D99015 /* LoadingView.swift in Sources */,
+				FAA38CB72BC3019400E7C79D /* WeatherManeger.swift in Sources */,
 				FAD36CDB2BBC9B1400F1D9A0 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
