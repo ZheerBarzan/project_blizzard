@@ -14,6 +14,7 @@
 		FA0B94FC2BB4BC5A00A4897C /* project_blizzardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B94FB2BB4BC5A00A4897C /* project_blizzardTests.swift */; };
 		FA0B95062BB4BC5B00A4897C /* project_blizzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */; };
 		FA0B95082BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */; };
+		FA2A92002BC9644E003BB9C7 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A91FF2BC9644E003BB9C7 /* Extentions.swift */; };
 		FA314F7C2BC5962000B9BD4C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA314F7B2BC5962000B9BD4C /* WeatherView.swift */; };
 		FA314F802BC596C000B9BD4C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA314F7F2BC596C000B9BD4C /* ModelData.swift */; };
 		FA314F822BC5975C00B9BD4C /* WeatheData.json in Resources */ = {isa = PBXBuildFile; fileRef = FA314F812BC5975C00B9BD4C /* WeatheData.json */; };
@@ -52,6 +53,7 @@
 		FA0B95012BB4BC5B00A4897C /* project_blizzardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_blizzardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0B95052BB4BC5B00A4897C /* project_blizzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITests.swift; sourceTree = "<group>"; };
 		FA0B95072BB4BC5B00A4897C /* project_blizzardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_blizzardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA2A91FF2BC9644E003BB9C7 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		FA314F7B2BC5962000B9BD4C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		FA314F7F2BC596C000B9BD4C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		FA314F812BC5975C00B9BD4C /* WeatheData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatheData.json; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				FA0B94ED2BB4BC5A00A4897C /* Assets.xcassets */,
 				FA0B94EF2BB4BC5A00A4897C /* project_blizzard.entitlements */,
 				FA0B94F02BB4BC5A00A4897C /* Preview Content */,
+				FA2A91FF2BC9644E003BB9C7 /* Extentions.swift */,
 			);
 			path = project_blizzard;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				FA314F802BC596C000B9BD4C /* ModelData.swift in Sources */,
 				FA314F7C2BC5962000B9BD4C /* WeatherView.swift in Sources */,
 				FAD36CDB2BBC9B1400F1D9A0 /* WelcomeView.swift in Sources */,
+				FA2A92002BC9644E003BB9C7 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
