@@ -16,8 +16,7 @@ struct ContentView: View {
             
             if let location = locationManeger.location{
                 if let weather = weather{
-                    Text("Your Location is \(location.latitude) \(location.longitude)")
-                    
+                    WeatherView(weather: weather)
                 }else{
                     LoadingView().task {
                         do{

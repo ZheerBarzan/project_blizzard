@@ -15,5 +15,5 @@ struct WeatherView: View {
 }
 
 #Preview {
-    WeatherView()
+    WeatherView(weather: previewWeather)
 }
