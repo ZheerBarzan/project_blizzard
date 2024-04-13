@@ -13,6 +13,9 @@ struct WeatherView: View {
         
         ZStack(alignment: .leading){
             VStack{
+                VStack(alignment: .leading, spacing: 5){
+                    
+                }.frame(maxWidth: .infinity, alignment: .leading)
                 
             }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading).padding()
             
